@@ -1,0 +1,80 @@
+body{
+    color: rgb(166, 189, 231);
+    background-color: rgb(14, 14, 29);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    padding: 10px;
+    font-size: 1,5em;
+    color: rgb(7, 7, 43);
+}
+
+nav{
+    padding: 10px;
+    background-color: rgb(69, 99, 155);
+    font-size: 2em;
+    color: rgb(7, 7, 43);
+    height: 40px;
+}
+
+a {
+    color: rgb(193, 193, 236);
+    text-decoration:none;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+#adminbar{
+    background-color: rgb(44, 45, 107);
+    font-size: 2em;
+    color: rgb(178, 178, 252);
+    height: 40px;
+}
+
+form{
+    max-width: 500px;
+    margin: 2rem auto;
+  
+    color: rgb(189, 189, 228);
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    
+}
+
+input, select{
+    padding: 5px;
+   
+}
+
+.gender{
+    display: inline-block;
+    margin-top: 0px;
+}
+.formularz {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+#submit{
+    border:0 none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(69, 99, 155);
+    color: rgb(189, 189, 228);
+    border-radius: 5px;
+    width: 20%;
+}

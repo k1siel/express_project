@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="/">main</a>
+        <a href="/login">login</a>
+        <a href="/register">register</a>
+        <a href="/admin">admin</a>
+    </nav>
+    <h1>register page</h1>
+    <div class="itemholder">
+        <form action="/register" method="POST">
+            <label for="login">login</label> <input class="formularz" type="login" name="login">
+            <label for="password">password</label> <input class="formularz" type="password" name="password">
+            <label>wiek</label> <select class="formularz" name="wiek">
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select>
+            <label for="uczen">uczeń</label>
+            <input type="checkbox" name="uczen" value="checked" />
+            <label for="">płeć</label>
+            <input type="radio" class="gender" id="m" name="gender" value="m" checked="checked">
+            <label class="gender">M</label>
+            <input type="radio" class="gender" id="k" name="gender" value="k">
+            <label class="gender">K</label>
+
+            <button class="formularz" id="submit" type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
