@@ -126,7 +126,7 @@ app.get('/gender', function (req, res) {
             show += "</tr>"
         }
 
-        show += "</table></div><div><table>"
+        show += "</table></div><br><div><table>"
         for (let i = 0; i < boys.length; i++) {
             let entries = Object.entries(boys[i])
             show += "<tr style='border: solid black 1px'>"
